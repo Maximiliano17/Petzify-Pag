@@ -1,19 +1,15 @@
 /*Estilos por defecto*/
-
 *{
     margin:0px;
     padding:0px;
-    box-sizing:0px;
-
+    box-sizing:border-box; /* Corregido: cambiar '0px' a 'border-box' */
     font-family: 'Anton', sans-serif;
     font-family: 'Comfortaa', cursive;
     scroll-behavior: smooth;
-
     color:  #4d4949;
 }
 
 /*Footer*/
-
 .footer{ 
     width:100%;
     height:70vh;    
@@ -30,6 +26,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap; /* Agregado: envolver elementos cuando el espacio sea insuficiente */
 }
 
 .logo{
@@ -49,7 +46,7 @@
     width:100%;
     height:20%;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
 }
 
@@ -110,4 +107,35 @@
 .unirse button{
     width:35%;
     height: 3rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:950px) {
+   .seguir h2{
+    display: none;
+   }
+
+   .titulo{
+    display: none;
+   }
+
+   .section_2{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:.5rem;
+   }
+
+   .footer{
+    height: 100vh;
+   }
+}
+
+@media (max-width:750px) {
+    .footer2{
+        display: none;
+       }
 }

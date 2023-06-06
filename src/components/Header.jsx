@@ -21,7 +21,7 @@ function Header() {
                 <button> <a href="#home">Home</a> </button>
                 <button> <a href="#SobreNosotros">Sobre Nosotros</a> </button>
                 <button> <a>Ubicame</a> </button>
-                <button> <a>Opcciones</a> </button>
+                <button> <a>PetShop</a> </button>
             </section>
             <button className={styles.buscador}> <p>/</p> </button>
             <section className={styles.perfil}>
