@@ -49,10 +49,9 @@
 
 .Informacion h2 {
     width: 90%;
-    text-align: center;
     position: relative; 
     z-index: 1;
-    color:#000;
+    color:#fff;
     font-size: 17px;
 }
 
@@ -65,4 +64,50 @@
     bottom: 0;
     left: 0;
     z-index: 0;  
+}
+
+.tarjeta{
+    width: 80%;
+    height: 80%;
+    background: #5F4F4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;  
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+.tarjeta p {
+    width: 30px;
+    height: 30px;
+    background:#fff;
+    border-radius: 100%;
+    position: relative;
+    left: 200px;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta p::before,
+.tarjeta p::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background:cornflowerblue;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.tarjeta p::before {
+    left: -35px;
+}
+
+.tarjeta p::after {
+    right: -35px;
 }
