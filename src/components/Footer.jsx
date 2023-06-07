@@ -38,15 +38,14 @@ function Footer() {
              <img src={logo} alt="Logo" />
            </section>
            <section className={styles.informacion}> 
-            <p>
-            Esta página fue creada por Connected World, una empresa líder en desarrollo de software. La página forma parte de la aplicación Petzify, una plataforma dedicada a conectar amantes de las mascotas de todo el mundo.
-            Todos los derechos de la página y la aplicación pertenecen a los fundadores: Dos Santos Burgos, Maximiliano Delfor y Villalba Juan Pablo. Nos enorgullece ofrecer a nuestros usuarios una experiencia única y brindarles las herramientas necesarias para disfrutar de su pasión por las mascotas.
-            Para cualquier consulta o soporte, no dudes en contactarnos. ¡Gracias por ser parte de la comunidad Petzify!
+            <p>      
+              Esta página fue creada por Connected World, una empresa de desarrollo de software. Todos los derechos están reservados a los fundadores: Dos Santos Maximiliano y Villalba Juan Pablo.
+              En nuestra aplicación, puedes promocionarte ante nuestra creciente comunidad de usuarios. Si estás interesado, contáctanos a través de nuestro formulario en la sección 'Contactanos'. ¡Únete a nosotros y alcanza a una audiencia apasionada en Petzify!
             </p>
            </section>
            <section className={styles.unirse}>
-            <p>En nuestra aplicación, ofrecemos la oportunidad de aparecer y promocionarte ante nuestra creciente comunidad de usuarios. Si estás interesado, contáctanos a través de nuestro formulario en la sección 'Contactanos'. ¡Únete a nosotros y alcanza a una audiencia apasionada en Petzify!</p>
-            <button>Ir a Contacto</button>
+            <button>Connected World</button>
+            <button>Contacto</button>
            </section>
            </section>
         </footer>

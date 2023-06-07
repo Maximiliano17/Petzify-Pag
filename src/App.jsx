@@ -1,4 +1,5 @@
 //Componentes
+import Comentarios from "./components/Comentarios"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Home from "./components/Home"
@@ -14,6 +15,8 @@ function App() {
      <Home />
     {/* SobreNosotros */}
       <SobreNosotros />
+      {/* Footer */}
+     <Comentarios></Comentarios>
     {/* Footer */}
       <Footer></Footer> 
    </>

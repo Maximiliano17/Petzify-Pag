@@ -12,7 +12,7 @@
 /*Footer*/
 .footer{ 
     width:100%;
-    height:70vh;    
+    height:50vh;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     align-items: center;
     flex-wrap: wrap; /* Agregado: envolver elementos cuando el espacio sea insuficiente */
 }
-
+ 
 .logo{
   width:30%;
   height: 100%;
@@ -38,9 +38,9 @@
 }
 
 .logo img{
-    width:70%;
+    width:50%;
     border-radius: 100%;
-}
+} 
 
 .titulo{
     width:100%;
@@ -64,7 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   gap:4rem;
+    gap:4rem;
 }
 
 .seguir{
@@ -97,7 +97,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap:3rem;
+    gap:1rem;
 }
 
 .unirse p{
