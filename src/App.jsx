@@ -3,6 +3,7 @@ import Comentarios from "./components/Comentarios"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Home from "./components/Home"
+import Nuestra from "./components/Nuestraapp"
 import SobreNosotros from "./components/SobreNosotros"
 
 function App() {
@@ -11,11 +12,13 @@ function App() {
    <>
     {/* Header */}
     <Header />
-    {/* Home */} 
+    {/* Home */}  
      <Home />
     {/* SobreNosotros */}
       <SobreNosotros />
-      {/* Footer */}
+        {/* Nuestra */}
+        <Nuestra></Nuestra>
+      {/* Comentarios */}
      <Comentarios></Comentarios>
     {/* Footer */}
       <Footer></Footer> 

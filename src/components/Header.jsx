@@ -25,6 +25,7 @@ function Header() {
                 <button> <a href="#home">Home</a> </button>
                 <button> <a href="#SobreNosotros">Sobre Nosotros</a> </button>
                 <button> <a href="#Comentarios">Comentarios</a> </button>
+                <button> <a href="#Nuestra">Nuestra App</a> </button>
                 <button> <a>Ubicame</a> </button>
                 <button> <a>PetShop</a> </button>
             </section>
