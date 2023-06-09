@@ -16,9 +16,10 @@ function App() {
      <Home />
     {/* SobreNosotros */}
       <SobreNosotros />
-        {/* Nuestra */}
+        {/* Nuestra
         <Nuestra></Nuestra>
-      {/* Comentarios */}
+        */}
+     {/* Comentarios */}
      <Comentarios></Comentarios>
     {/* Footer */}
       <Footer></Footer> 
