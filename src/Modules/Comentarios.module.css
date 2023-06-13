@@ -4,7 +4,6 @@
     margin:0px; 
     padding:0px; 
     box-sizing:0px;
-
     font-family: 'Anton', sans-serif;
     font-family: 'Comfortaa', cursive;
 } 
@@ -17,7 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    gap:2rem;
 }
 
 .sobre{
@@ -30,46 +28,11 @@
 }
 
 .tarjeta{
-    width:20%;
-    height:85%;
+    height:10vh; 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border:1px solid #5F4F4A;
-    background: #5F4F4A;
-    border-radius: 5%;
-}
-
-.select{
-    width: 30px;
-    height: 30px;
-    background:#5F4F4A;
-    color:white;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.perfil_info{
-    width: 90%;
-    height: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    gap:1rem;
-}
-
-.perfil_info span{
-   color: white;
-}
-
-.comentario{
-    width: 90%;
-    height: 50%;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border:1px solid #ccc;
+    border-radius: 10%;
+    background: red;
 }
