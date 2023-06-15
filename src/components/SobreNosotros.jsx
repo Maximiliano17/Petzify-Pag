@@ -8,7 +8,7 @@ function Sobremi() {
    <>
     <div className={styles.sobre}>
       <h1>Sobre Nosotros</h1>
-    </div> 
+    </div>  
     <div id="SobreNosotros" className={styles.contenedor}> 
       <section className={styles.Informacion}>
       <div className={styles.tarjeta}>
