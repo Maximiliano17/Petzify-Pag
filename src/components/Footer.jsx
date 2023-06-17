@@ -36,7 +36,7 @@ function Footer() {
            <section className={styles.section_2}>
            <section className={styles.logo}>
              <img src={logo} alt="Logo" />
-           </section>
+           </section> 
            <section className={styles.informacion}> 
             <p>      
               Esta página fue creada por Connected World, una empresa de desarrollo de software. Todos los derechos están reservados a los fundadores: Dos Santos Maximiliano y Villalba Juan Pablo.

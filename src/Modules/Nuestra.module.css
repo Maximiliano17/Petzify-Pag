@@ -9,6 +9,18 @@
     scroll-behavior: smooth;
 }
 
+/*None*/
+
+.imagen_res{
+    display: none;
+}
+
+
+.lista_res{
+   display: none;
+ }
+ 
+
 /*Nuestra*/
 
 .sobre{
@@ -16,7 +28,7 @@
     height:10vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     border:1px solid #ccc;
 }
 
@@ -92,3 +104,64 @@
     justify-content: center;
     align-items: center;
 }
+
+/*Responcive desing*/
+
+@media (max-width: 930px) {
+    .contenedor{
+         width: 100%;
+         height: 150vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+    }
+
+    .caracteristicas{
+        width: 100%;
+    }
+
+    .imagen{
+        width: 100%;
+    }
+ }
+
+ 
+@media (max-width: 450px) {
+         
+        .imagen{
+            display: none;
+        }
+
+        .imagen_res{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagen_res img{
+            image-rendering: auto;
+        }
+        
+        .lista{
+            display: none;
+        }
+
+        .lista_res{
+            width: 90%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            list-style: none;
+            gap:2rem;
+        }
+ 
+       .unirse button{
+        width: 40%;
+       }
+
+    }

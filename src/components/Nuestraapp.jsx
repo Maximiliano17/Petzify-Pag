@@ -2,7 +2,7 @@
 import styles from "../Modules/Nuestra.module.css"
 //Imagenes
 import img from "../assets/img/fondo_imagen.png"
-import imagen from "../assets/img/images.png"
+import imagen from "../assets/img/iphone.png"
 import fondo from "../assets/img/celular.png"
 
 function Nuestra() {  
@@ -23,7 +23,7 @@ function Nuestra() {
              </li> 
              <li>
              <p className={styles.parrafo}>
-                Las mas grandes empresas dedicadas a tus mascotas
+                Grandes empresas dedicadas a tus mascotas
                </p> 
              </li> 
              <li> 
@@ -42,6 +42,20 @@ function Nuestra() {
                </p> 
              </li>  
             </ul>
+            <ul className={styles.lista_res}>
+              <li>
+                <p>App Gratis</p>
+              </li>
+              <li>
+                <p>Comunidad Unida</p>
+              </li>
+              <li>
+                <p>Mascotas Contentas</p>
+              </li>
+              <li>
+                <p>No Te Lo Pierdas</p>
+              </li>
+           </ul>
             <section className={styles.unirse}>
               <button>Descargar Aqui</button>
               <button>Siguiente</button>
@@ -49,6 +63,9 @@ function Nuestra() {
           </div>
          <div className={styles.imagen}>
            <img src={img} /> 
+         </div>
+         <div className={styles.imagen_res}>
+           <img src={imagen} /> 
          </div>
         </div> 
        </>
