@@ -9,8 +9,8 @@ function Home() {
       <main id="Home" className={styles.main}>
         <div className={styles.content}>
           <p>Petzify</p>
-          <p>Juntos por un mundo unido</p>
-        </div>
+          <p className={styles.slogan}>Por ellos</p>
+        </div> 
       </main>
      </>
      
