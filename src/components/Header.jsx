@@ -1,9 +1,7 @@
 //Imagenes
 import logo from "../assets/icons/download.png"
-import perfil_defecto from "../assets/icons/perfil.jpg"
 //Styles
 import styles from "../Modules/Header.module.css"
-
 
 function Header() {
  
@@ -18,9 +16,7 @@ function Header() {
                 <button> <a href="#home">Home</a> </button>
                 <button> <a href="#SobreNosotros">Sobre Nosotros</a> </button>
                 <button> <a href="#Nuestra">Nuestra App</a> </button>
-                <button> <a>Eventos</a> </button>
-                <button> <a>Ubicame</a> </button>
-                <button> <a>PetShop</a> </button>
+                <button> <a href="#eventos">Eventos</a> </button>
             </section>
             <section className={styles.menu_res}>
               <button> 
