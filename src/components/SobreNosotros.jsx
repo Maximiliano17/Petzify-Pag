@@ -13,8 +13,7 @@ function Sobremi() {
     </div>  
     <div id="SobreNosotros" className={styles.contenedor}> 
       <div className={styles.video}>
-        <h1>Video Promocional</h1>
-        <p>Muy Pronto...</p>
+       <img src={img} />
       </div>
     </div> 
    </>
