@@ -1,9 +1,9 @@
 //Styles
 import styles from "../Modules/SobreNosotros.module.css"
 //Imagenes
-import img from "../assets/icons/perro.png"
-//dependencias
-import ReactPlayer from "react-player"
+import img from "../assets/img/1.png"
+import React from 'react'
+import ReactPlayer from 'react-player'
 
 function Sobremi() {  
   return (  
@@ -13,12 +13,11 @@ function Sobremi() {
     </div>  
     <div id="SobreNosotros" className={styles.contenedor}> 
       <div className={styles.video}>
-       <img src={img} />
+        <ReactPlayer url='https://youtu.be/pYtrPA9IS2E' />
       </div>
     </div> 
    </>
   )
 }
 
-export default Sobremi 
- 
+export default Sobremi; 
