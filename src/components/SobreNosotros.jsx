@@ -5,6 +5,7 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 //Imagenes
 import img from "../assets/img/1.png"
+import img2 from "../assets/img/2.jpeg"
 
 function Sobremi() {  
   return (  
@@ -20,7 +21,7 @@ function Sobremi() {
         />
         <ReactPlayer 
         className={styles.video2}
-        width='60%'
+        width='70%'
         height='90%'
         url='https://youtu.be/pYtrPA9IS2E' 
         />
@@ -28,15 +29,15 @@ function Sobremi() {
         <div className={styles.videos} >
           <section className={styles.reels}> 
            <img src={img} />
-           <p>
-            Ver en Youtube
-           </p>
+           <a target="_blank" href="https://www.instagram.com/p/CuCSo2oOKss/">
+            Ver en Instagram
+           </a>
           </section>
           <section className={styles.reels}> 
-           <img src={img} />
-           <p>
-            Ver en Youtube
-           </p>
+           <img src={img2} />
+           <a target="_blank" href="https://www.instagram.com/p/CsNCtMyu4mq/">
+            Ver en Instagram
+           </a>
           </section>
         </div>
     </div> 

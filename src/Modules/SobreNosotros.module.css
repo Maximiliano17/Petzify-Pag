@@ -58,7 +58,7 @@
 }
 
 .reels{
-    width: 100%;
+    width: 90%;
     height: 40%;
     display: flex;
     justify-content: center;
@@ -68,13 +68,14 @@
     box-shadow: 1px 1px 7px 1px #000;
 }
 
-.reels p{
+.reels a{
     width: 100%;
     height: 20%;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .reels img{
@@ -89,7 +90,7 @@
 
 /*Responcive desing*/
 
-@media (max-width: 930px) {
+@media (max-width: 1000px) {
  
     .contenedor {
         width: 100%;
@@ -103,7 +104,7 @@
 
      .video_presentacion{
         width: 100%;
-        height: 80%;
+        height: 80vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -112,7 +113,7 @@
 
      .videos{
         width: 100%;
-        height: 70%;
+        height: 70vh;
         display: flex;
         justify-content: center;
         align-items: center;
