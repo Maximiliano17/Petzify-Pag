@@ -15,7 +15,7 @@ function Sobremi() {
     </div>  
     <div id="SobreNosotros" className={styles.contenedor}> 
       <div className={styles.video_presentacion} >
-        <ReactPlayer 
+      <ReactPlayer 
         className={styles.video}
         url='https://youtu.be/pYtrPA9IS2E' 
         />
