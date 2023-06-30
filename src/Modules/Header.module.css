@@ -28,7 +28,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .listas a{
@@ -83,12 +83,15 @@
 
    .header{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
    } 
 
    .logo{
     width: 55%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
    }
 
    .menu_res{
@@ -115,14 +118,5 @@
   .listas{
     display: none;
   }
-
-  .perfil{
-    width: 10%;
-  } 
-
-  .perfil input {
-    display: none;
-  }
-
 
 }

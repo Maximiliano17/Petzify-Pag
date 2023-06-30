@@ -18,7 +18,7 @@ function Sobremi() {
       <ReactPlayer 
         className={styles.video}
         url='https://youtu.be/pYtrPA9IS2E' 
-        />
+        /> 
         <ReactPlayer 
         className={styles.video2}
         width='70%'

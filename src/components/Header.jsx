@@ -3,13 +3,13 @@ import logo from "../assets/icons/download.png"
 //Styles
 import styles from "../Modules/Header.module.css"
 
-function Header() {
+function Header() { 
  
     return (  
     <>
         <header className={styles.header}>
             <section className={styles.logo}>
-              <button>  <img src={logo} alt="foto"/></button>
+              <button> <img src={logo} alt="foto"/></button>
               <p>Petzify</p>
             </section>
             <section className={styles.listas}>
