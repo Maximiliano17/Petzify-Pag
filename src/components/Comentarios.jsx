@@ -6,7 +6,7 @@ function Comentarios() {
     return (
      <>
       {/* Contacto */}
-         <div className={style.container}> 
+         <div className={style.container}>  
            <ul className={styles.moviesGrid}>
              <div className={style.tarjeta}>
                 hola

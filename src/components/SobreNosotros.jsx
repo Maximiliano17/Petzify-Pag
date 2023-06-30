@@ -6,6 +6,7 @@ import ReactPlayer from 'react-player'
 //Imagenes
 import img from "../assets/img/1.png"
 import img2 from "../assets/img/2.jpeg"
+import compu from "../assets/img/compu.png"
 
 function Sobremi() {  
   return (  
@@ -15,16 +16,10 @@ function Sobremi() {
     </div>  
     <div id="SobreNosotros" className={styles.contenedor}> 
       <div className={styles.video_presentacion} >
-      <ReactPlayer 
-        className={styles.video}
-        url='https://youtu.be/pYtrPA9IS2E' 
-        /> 
-        <ReactPlayer 
-        className={styles.video2}
-        width='70%'
-        height='90%'
-        url='https://youtu.be/pYtrPA9IS2E' 
-        />
+       <section className={styles.compu}>
+       <img src={compu} />
+       
+       </section>
         </div>
         <div className={styles.videos} >
           <section className={styles.reels}> 

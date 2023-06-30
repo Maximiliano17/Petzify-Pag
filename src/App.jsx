@@ -1,5 +1,6 @@
 //Componentes
 import Eventos from "./components/Eventos"
+// import Comentarios from "./components/Comentarios"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Home from "./components/Home"
@@ -18,8 +19,12 @@ function App() {
       <SobreNosotros />
         {/* Nuestra  */}
         <Nuestra></Nuestra>
-     {/* Comentarios  */}
+     {/* Eventos  */}
      <Eventos />
+        {/* Comentarios  
+                <Comentarios />
+        */}
+        
     {/* Footer */}
       <Footer></Footer> 
    </>
