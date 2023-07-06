@@ -15,12 +15,6 @@
     display: none;
 }
 
-
-.lista_res{
-   display: none;
- }
- 
-
 /*Nuestra*/
 
 .sobre{
@@ -52,17 +46,6 @@
     gap:1rem;
 }
 
-.lista{
-   width: 90%;
-   height: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   list-style: none;
-   gap:2rem;
-}
-
 .imagen{
     width: 40%;
     height: 100%;
@@ -75,27 +58,6 @@
     image-rendering: auto;
 }
 
-.unirse{
-    width:90%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:2rem;
-}
-
-.unirse p{
-    text-align: center;
-}
-
-.unirse button{
-    width:20%;
-    height: 4rem;
-    border-radius: 10%;
-    border-style: none;
-    background:  #589667;
-    color:white;
-}
 
 .titulo{
     width: 90%;
@@ -105,12 +67,20 @@
     align-items: center;
 }
 
+.seccionesapp{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
 /*Responcive desing*/
 
 @media (max-width: 930px) {
     .contenedor{
          width: 100%;
-         height: 150vh;
          display: flex;
          justify-content: center;
          align-items: center;
@@ -145,23 +115,5 @@
             image-rendering: auto;
         }
         
-        .lista{
-            display: none;
-        }
-
-        .lista_res{
-            width: 90%;
-            height: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            list-style: none;
-            gap:2rem;
-        }
- 
-       .unirse button{
-        width: 40%;
-       }
 
     }
