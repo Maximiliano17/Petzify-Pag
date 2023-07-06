@@ -8,7 +8,8 @@ function Footer() {
     return ( 
     <> 
     <div className={styles.seguir}>
-      <h2>Gracias por ver!</h2>
+      <h2>Gracias por ver :)</h2>
+        
     </div>
         <footer className={styles.footer}>
           <section className={styles.titulo}>

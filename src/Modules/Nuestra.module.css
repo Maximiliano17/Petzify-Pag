@@ -15,6 +15,14 @@
     display: none;
 }
 
+.loginvistaresponsive{
+    display: none;
+}
+
+.texto_responsive{
+    display: none;
+}
+
 /*Nuestra*/
 
 .sobre{
@@ -42,8 +50,15 @@
     align-items: center;
     flex-direction: column;
     position: relative; 
-    z-index: 1;
     gap:1rem;
+}
+
+.caracteristicas p{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagen{
@@ -58,10 +73,9 @@
     image-rendering: auto;
 }
 
-
 .titulo{
     width: 90%;
-    height: 20%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +89,44 @@
     align-items: center;
 }
 
- 
+.loginvista{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginvista img{
+    width: 90%;
+    height: 90%;
+}
+
+.informacion{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informacion p{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo2{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Responcive desing*/
 
 @media (max-width: 930px) {
@@ -94,26 +145,96 @@
     .imagen{
         width: 100%;
     }
+
+    .seccionesapp{
+        flex-direction: column;
+    }
+
+    .loginvista{
+        width: 100%;
+        height: 50%;
+    }
+
+    .informacion{
+        width: 100%;
+        height: 50%;
+    }
+
  }
 
  
-@media (max-width: 450px) {
+@media (max-width: 650px) {
          
         .imagen{
             display: none;
         }
 
         .imagen_res{
-            width: 40%;
+            width: 100%;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+        }
+
+        .imagen_res p{
+            width: 80%;
         }
 
         .imagen_res img{
             image-rendering: auto;
         }
+
+        .imagen_res{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .imagen_res p{
+            width: 80%;
+        }
+
         
+        .loginvista{
+            display: none;
+        }
+
+        .informacion{
+           display: none;
+        }
+        
+        .caracteristicas{
+            display: none;
+        }
+
+        .loginvistaresponsive{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+         .loginvistaresponsive p{
+            width: 80%;
+         }
+
+        .loginvistaresponsive img{
+            width: 90%;
+            height: 90%;
+        }
+
+        .texto_responsive{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
 
     }

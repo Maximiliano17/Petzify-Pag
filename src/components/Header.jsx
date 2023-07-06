@@ -18,6 +18,7 @@ function Header() {
                 <button> <a href="#Nuestra">Nuestra App</a> </button>
                 <button> <a href="#eventos">Eventos</a> </button>
             </section>
+           {/*
             <section className={styles.menu_res}>
               <button> 
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
@@ -25,6 +26,7 @@ function Header() {
               </svg>
               </button>
             </section>
+           */}
         </header>
 </>
     )

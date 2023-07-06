@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #73A073;
+    background: linear-gradient(to right, #589667, #7ED957);
 }
 
 .evetos{
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #73A073;
+    background: linear-gradient(to right, #7ED957, #589667);
 }
 
 .sobre{
@@ -121,6 +121,53 @@
     color:white;
 }
 
+.texto_responsive{
+    display: none;
+}
+
+/*Formulario*/
+
+.contacto{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #589667, #7ED957);
+}
+
+.formulario{
+    width:30%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+    border-radius: 10%;
+    background: white;
+}
+
+.formulario input{
+    width: 80%;
+    height: 2rem;
+}
+
+.enviar{
+   background: rgb(0, 140, 255);
+   border-style: none;
+   color:white;
+}
+
+.titulo_form{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
  /*Responcive desing*/
 
 @media (max-width: 900px) {
@@ -131,9 +178,98 @@
         flex-direction: column;
     }
     .evetos{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
+     .informacion{
+        width: 100%;
+     }
+
+    .informacion p{
+        width: 70%;
+    }
+    
+     .informacion img{
+        display: none;
+     }
+
+    .foto{ 
+        width: 100%;
+    }
+
+    .foto img{
+        width: 50%; 
+        height: 80%;
+    } 
+
+    .texto_evento{
+        width: 100%;
+    }
+
+    .texto_evento p{
+        width: 80%;
+    }
+}
+
+@media (max-width: 640px) {
+ 
+    .foto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .foto p{
+        width: 80%;
+        color: white;
+    }
+
+    .foto img{
+        width: 90%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto_evento{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .foto_evento p{
+        width: 80%;
+        color: white;
+    }
+
+    .foto_evento img{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    .texto_evento{
+       display: none;
+    }
+
+    .informacion{
+        display: none;
+     }
+
+     .texto_responsive{
+        width:90%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;     
+     }
+
 }
