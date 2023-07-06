@@ -55,7 +55,7 @@ function Sobremi() {
         <div className={styles.presentaciondos}>
           <ReactPlayer
           className={styles.videodos}
-          url='https://youtu.be/pYtrPA9IS2E'
+          url='https://youtu.be/CM9TmrkvC6I'
           controls = {true}
             />
         </div>
