@@ -1,0 +1,21 @@
+/*Estilos por defecto*/
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:0px;
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
+}
+
+/*Petshop*/
+ 
+.contenedor{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
